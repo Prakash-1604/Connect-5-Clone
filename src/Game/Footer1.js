@@ -12,8 +12,8 @@ const Footer1 = ({newgame,suggest,gamestate}) => {
   }
   return (
     <div className='footer'>
-      <button onClick={newgame}>New Game</button>
-      <button onClick={suggest}>Suggest</button>
+      <button  className='button' onClick={newgame}>New Game</button>
+      <button className='button' onClick={suggest}>Suggest</button>
     
     </div>
   )
